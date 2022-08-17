@@ -74,3 +74,4 @@ for i in range(len(weights)):
 plt.ylabel('Return')
 plt.xlabel('Risk')
 plt.show()
+plt.savefig('Frontier.png')
